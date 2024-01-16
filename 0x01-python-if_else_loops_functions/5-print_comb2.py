@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-for i in range(1, 100):
-    if i == 1:
-        print("{}{}".format((i // 10), (i % 10)), end="")
+for i in range(0, 100):
+    if i == 99 or i == 0:
+        print("{}{}, ".format((i // 10), (i % 10)), end="")
     else:
-        print(" {}{},".format((i // 10), (i % 10)), end="")
+        print("{}{},".format((i // 10), (i % 10)), end="")
