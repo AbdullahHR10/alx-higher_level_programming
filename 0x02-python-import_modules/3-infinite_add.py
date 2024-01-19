@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
-    
+
     args = sys.argv[1:]
     number_of_args = len(sys.argv) - 1
     if number_of_args <= 0:
@@ -10,4 +10,3 @@ if __name__ == "__main__":
     else:
         result = sum(map(int, args))
         print(result)
-        
