@@ -10,6 +10,8 @@ class Square:
         """
         def __init__(self, size):
             """Creates Instantiations.
+            
+            Args:
             size: size of the square
             """
         self.__size = size
