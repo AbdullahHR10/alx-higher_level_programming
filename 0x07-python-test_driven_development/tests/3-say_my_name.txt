@@ -1,0 +1,14 @@
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+>>> say_my_name("Abdullah", "Hussein")
+My name is Abdullah Hussein
+
+>>> say_my_name("Abdullah")
+My name is Abdullah
+
+>>> say_my_name("", "Hussein")
+My name is Hussein
+
+>>> say_my_name(0, "Hussein")
+Traceback (most recent call last):
+TypeError: first_name must be a string
