@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/user/bin/python3
 """Defines a rectangle"""
 
 
@@ -76,6 +76,7 @@ class Rectangle:
         rectangle_str = ""
         if self.__width <= 0 or self.__height <= 0:
             return ""
-        for i in range(self.__height):
+        for i in range(self.__height - 1):
             rectangle_str += "#" * self.__width + "\n"
+        rectangle_str += "#" * self.__width
         return rectangle_str
