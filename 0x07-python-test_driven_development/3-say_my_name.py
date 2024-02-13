@@ -1,5 +1,13 @@
 #!/usr/bin/python3
+"""Module for printing names.
+    Functions:
+
+    say_my_name: Prints names.
+    """
 def say_my_name(first_name, last_name=""):
+    """Function that prints names.
+    first_name (str): first name.
+    last_name (str): last name."""
     if not isinstance(first_name, str):
         raise TypeError("first_name must be a string")
     if not isinstance(last_name, str):
