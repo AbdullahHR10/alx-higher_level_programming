@@ -4,6 +4,8 @@
 
     say_my_name: Prints names.
     """
+
+
 def say_my_name(first_name, last_name=""):
     """Function that prints names.
     first_name (str): first name.
