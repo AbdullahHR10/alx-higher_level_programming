@@ -2,6 +2,8 @@
 """Moudle of a Square that inherits from Rectangle (9-rectangle.py).
 """
 
+Rectangle = __import__('9-rectangle.py').Rectangle
+
 
 class Square(Rectangle):
     """Class Square.
