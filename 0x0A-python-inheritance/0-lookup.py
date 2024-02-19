@@ -1,3 +1,10 @@
 #!/usr/bin/python3
+"""Module for returning available attributes and methods of an object.
+"""
+
+
 def lookup(obj):
-    return [attr for attr in dir(obj) if not attr.startswith('_')]
+    """Function for return the attributes for an object.
+    """
+
+    return dir(obj)
