@@ -22,7 +22,7 @@ class Rectangle(BaseGeometry):
 
         Raises:
             TypeError: If either width or height is not an integer.
-            ValueError: If either width or height is less than or equal to zero.
+            ValueError: If either width or height is less than or equal to 0.
         """
         self.integer_validator("width", width)
         self.__width = width
