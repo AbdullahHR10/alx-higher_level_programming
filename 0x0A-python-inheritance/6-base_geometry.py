@@ -9,6 +9,6 @@ class BaseGeometry:
     def __init__(self):
         pass
 
-@property
-def area(self):
-    raise Exception("area() is not implemented")
+    @property
+    def area(self):
+        raise Exception("area() is not implemented")
