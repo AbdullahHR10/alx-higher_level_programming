@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+
 import json
 """Module that returns the JSON representation of an object.
 """
