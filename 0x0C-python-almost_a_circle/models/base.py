@@ -9,6 +9,7 @@ class Base:
 	Attributes:
 		__nb_objects (int) : objects of base.
 	"""
+	__nb_objects = 0
 
 	def __init__(self, id=None):
 		"""Initialize Base object.
