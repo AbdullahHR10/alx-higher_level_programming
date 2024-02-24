@@ -1,5 +1,5 @@
-
-dule of a base class.
+#!/usr/bin/python3
+"""module of a base class.
 """
 
 
@@ -23,4 +23,3 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
-
