@@ -20,7 +20,7 @@ class Rectangle(Base):
         self.__width = width
         self.__height = height
         self.__x = x
-        self.__Y = y
+        self.__y = y
 
     @property
     def width(self):
