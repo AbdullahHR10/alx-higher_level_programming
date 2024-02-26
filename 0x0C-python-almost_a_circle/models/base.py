@@ -3,6 +3,9 @@
 """
 
 
+import json
+
+
 class Base:
     """Base class of all other classes in this project.
 
@@ -28,4 +31,4 @@ class Base:
         if list_dictionaries is None or len(list_dictionaries) == 0:
             return "[]"
         else:
-            return json.dumps(list_dictinaries):
+            return json.dumps(list_dictionaries)
