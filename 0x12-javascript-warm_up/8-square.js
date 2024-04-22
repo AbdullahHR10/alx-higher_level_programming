@@ -11,5 +11,5 @@ for (i = 0; i < x; i++) {
   for (j = 0; j < x; j++) {
 	  row += "X";
   }
-console.log(row);
+  console.log(row);
 }
