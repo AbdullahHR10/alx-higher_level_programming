@@ -9,7 +9,7 @@ if (isNaN(process.argv[2])) {
 for (i = 0; i < x; i++) {
   row = "";
   for (j = 0; j < x; j++) {
-	  row += "X";
+    row += "X";
   }
   console.log(row);
 }
