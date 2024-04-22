@@ -6,6 +6,7 @@ if (isNaN(process.argv[2])) {
 } else {
   x = Number(process.argv[2]);
 }
+
 for (i = 0; i < x; i++) {
   row = "";
   for (j = 0; j < x; j++) {
