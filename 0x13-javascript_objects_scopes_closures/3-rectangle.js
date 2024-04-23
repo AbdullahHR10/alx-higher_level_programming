@@ -7,11 +7,11 @@ module.exports = class Rectangle {
       this.height = h;
     }
     this.print = function () {
-      let i, j;
-      let row = 'X'.repeat(w);
+      let i;
+      const row = 'X'.repeat(w);
       for (i = 0; i < h; i++) {
-	console.log(row);
-	}
-    }
+        console.log(row);
+      }
+    };
   }
 };
