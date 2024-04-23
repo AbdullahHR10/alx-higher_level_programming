@@ -2,15 +2,16 @@
 
 ![Static Badge](https://img.shields.io/badge/JavaScript-black?logo=JavaScript&logoColor=%23f7df1e)  ![Static Badge](https://img.shields.io/badge/AbdullahHR10-%230359AE?logo=Github&logoColor=%23000000)
 
-## Files
+
+# Files
 
 ##  0-javascript_is_amazing.js
 Script that prints “JavaScript is amazing
 ## 1-multi_languages.js
 Script that prints 3 lines:
-    The first line: “C is fun”
-    The second line: “Python is cool”
-    The third line: “JavaScript is amazing
+The first line: “C is fun”
+The second line: “Python is cool”
+The third line: “JavaScript is amazing
 ## 2-arguments.js
 Script that prints a message depending of the number of arguments passed:
 If no arguments are passed to the script, print “No argument”
