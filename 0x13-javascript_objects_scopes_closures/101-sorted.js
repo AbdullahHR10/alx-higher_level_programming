@@ -10,4 +10,4 @@ for (const userId in dict) {
   }
   usersByOccurrence[occurrence].push(userId);
 }
-console.log("User IDs by Occurrence:", usersByOccurrence);
+console.log(usersByOccurrence);
