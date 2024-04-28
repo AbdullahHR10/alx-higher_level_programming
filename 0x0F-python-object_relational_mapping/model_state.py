@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Module ontains the class definition of a State and an instance Base = declarative_base().
+"""Module ontains the class definition of a State
+and an instance Base = declarative_base().
 """
 
 
