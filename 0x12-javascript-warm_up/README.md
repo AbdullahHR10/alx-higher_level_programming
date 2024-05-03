@@ -1,4 +1,4 @@
-# 0x12. JavaScript - Warm up
+<center> <h1>0x12. JavaScript - Warm up</h1> </center>
 
 ![Static Badge](https://img.shields.io/badge/JavaScript-black?logo=JavaScript&logoColor=%23f7df1e)  ![Static Badge](https://img.shields.io/badge/AbdullahHR10-%230359AE?logo=Github&logoColor=%23000000)
 
