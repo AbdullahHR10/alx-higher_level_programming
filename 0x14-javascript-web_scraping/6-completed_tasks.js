@@ -20,9 +20,7 @@ request(apiUrl, function (error, response, body) {
         }
       });
 
-      const output = `{${Object.entries(completed).map(([key, value]) => ` '${key}': ${value}`).join(',\n ')} }`;
-
-      console.log(Object.keys(completed).length > 2 ? output : completed);
+      console.log(completed);
     } catch (parseError) {
       console.error('Error parsing JSON:', parseError);
     }
@@ -30,3 +28,4 @@ request(apiUrl, function (error, response, body) {
     console.error('Error:', error);
   }
 });
+
