@@ -11,6 +11,9 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer([-15, -2, -600, -1520]), -2)
         self.assertEqual(max_integer([-1, 0, -8, -9]), 0)
         self.assertEqual(max_integer([-1, -210, 1, -2]), 1)
+    def test_smaller_lists(self):
+        self.assertEqual(max_integer([1]), 1)
+        self.assertEqual(max_integer([]), None)
 
 if __name__ == '__main__':
     unittest.main()
