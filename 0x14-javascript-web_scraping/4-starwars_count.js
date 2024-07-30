@@ -8,6 +8,7 @@ request.get(url, (error, response, body) => {
   }
   const data = JSON.parse(body);
   const films = data.results;
-  const count = films.filter(film => film.characters.includes(`https://swapi-api.alx-tools.com/api/people/${characterId}/`)).length;
+  const characterUrl = `https://swapi-api.alx-tools.com/api/people/${characterId}/`;
+  const count = films.filter(film => film.characters.includes(characterUrl)).length;
   console.log(count);
 });
